@@ -43,6 +43,11 @@ The objetive of this project is build a replica that uses all the core logic of 
 - View posts from accepted friends
 - Edit your profile
 
+## Ideas for improvement
+
+- Make it looks like the real Facebook
+- Real time messaging.
+- Share post functionality
 
 ## Built With
 
