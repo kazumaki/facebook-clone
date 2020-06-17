@@ -1,15 +1,14 @@
-<<<<<<< HEAD
 # Facebook Clone
 
 >  An attempt to replicate the logic behind Facebook
 
 <!-- ![screenshot](./docs/image.png) -->
 
-The objetive of this project is build a replica that uses all the core logic of Facebook.
+The objective of this project is to build a replica that uses all the core logic of Facebook.
 
 ## Features
 
-- Sign in to the app using Facebook acccount
+- Sign in to the app using Facebook account
 - Send and receive friends Requests
 - View posts from accepted friends
 - Edit your profile
@@ -34,11 +33,11 @@ The objetive of this project is build a replica that uses all the core logic of 
 
 <!-- ![screenshot](./docs/image.png) -->
 
-The objetive of this project is build a replica that uses all the core logic of Facebook.
+The objective of this project is to build a replica that uses all the core logic of Facebook.
 
 ## Features
 
-- Sign in to the app using Facebook acccount
+- Sign in to the app using Facebook account
 - Send and receive friends Requests
 - View posts from accepted friends
 - Edit your profile
@@ -46,14 +45,14 @@ The objetive of this project is build a replica that uses all the core logic of 
 ## Ideas for improvement
 
 - Make it looks like the real Facebook
-- Real time messaging.
+- Real-time messaging.
 - Share post functionality
 
 ## Built With
 
 - Ruby language,
 - Ruby on Rails framework,
-- Vscode for coding
+- vscode for coding
 - Rubocop for Validation
 
 ## Live Demo
@@ -70,7 +69,7 @@ The objetive of this project is build a replica that uses all the core logic of 
 
 ## Getting started
 
-To get started with the app, clone the repo and then install the needed gems:
+To get started with the app, clone the repo, and then install the needed gems:
 
 ```
 $ bundle install --without production
@@ -112,7 +111,7 @@ For more information, see the
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Datagirlcmr/facebook-clone/issues).
 
