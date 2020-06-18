@@ -5,6 +5,7 @@ class PostsController < ApplicationController
     current_user.friends.each { |friend| @posts = @posts.or(friend.posts) }
     @posts = @posts.order(created_at: :desc)
     @comment = Comment.new
+    @new_post = Post.new
   end
 
   def new

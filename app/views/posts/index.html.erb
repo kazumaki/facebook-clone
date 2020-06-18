@@ -1,21 +1,50 @@
-<%= link_to "Whats on your mind", new_post_path %> <br>
-<% @posts.each do |post|%>
-  <%= post.content%> by: 
-  <%= post.author.name%> 
-  <%= button_to 'Like', likes_path, method: :post, params:{post_id: post.id}, class: "btn btn-success"%> 
-  <span class='like-count'> 
-    <%= pluralize(post.likes.count, 'like')%>
-  </span>
-  <% post.comments.each do |comment|%>
-  <span class="comment-area">
-    <%= comment.author.name%> : <%= comment.content%> <br>
-  </span>
+<div class="posts-container">
+  <%= render "new_post.html.erb", current_user: current_user %>
+  <% @posts.each do |post|%>
+    <div class="post">
+      <div class="post-content">
+        <%= link_to post.author.name, post.author %>
+        <span class="post-date"> <%= post.created_at %> </span>
+        <%= post.content%>
+      </div>
+      <div class='post-data'> 
+        <div class="like-count">
+          <%= fa_icon("thumbs-up") %>
+          <%= pluralize(post.likes.count, 'like')%>
+        </div>
+        <div class="comment-count">
+          <%= pluralize(post.comments.count, 'comment')%>
+        </div>
+      </div>
+      <%
+        liked = post.likes.select { |like| like.author == current_user }
+      %>
+
+      <% if liked.count > 0 %>
+        <%= button_to likes_path, method: :post, params:{post_id: post.id}, class: "btn-like btn-liked" do %>
+          <%= fa_icon("thumbs-up") %> Like
+        <%end%>
+      <% else %>
+        <%= button_to likes_path, method: :post, params:{post_id: post.id}, class: "btn-like" do %>
+          <%= fa_icon("thumbs-up") %> Like
+        <%end%>
+      <% end %>
+      <div class="comments">
+        <% post.comments.each do |comment|%>
+        <span class="comment-area">
+          <span class="comment-author">
+            <%= link_to comment.author.name, comment.author %>
+          </span>
+           <%= comment.content%> <br>
+        </span>
+        <% end %>
+      </div>
+      
+      <%= form_for @comment do |f|%>
+        <%= f.text_area :content, placeholder: 'Write a comment' %>
+        <%= f.hidden_field :post_id, value: post.id  %>
+        <%= f.submit 'Comment', class: "btn btn-comment"%>
+      <% end %>
+    </div>
   <% end %>
-  
-  <%= form_for @comment do |f|%>
-  <%= f.label :comment%>
-  <%= f.text_area :content%>
-  <%= f.hidden_field :post_id, value: post.id  %>
-  <%= f.submit 'comment', class: "btn btn-success"%>
-  <% end %> <br>
-<% end %>
+</div>
