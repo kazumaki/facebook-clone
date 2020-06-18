@@ -2,7 +2,7 @@
 
 >  An attempt to replicate the logic behind Facebook
 
-![Screenshot of the webpage](App.png)
+![Screenshot of the webpage](images/app.png) 
 
 The objective of this project is to build a replica that uses all the core logic of Facebook.
 
