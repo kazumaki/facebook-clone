@@ -2,7 +2,7 @@
 
 >  An attempt to replicate the logic behind Facebook
 
-<!-- ![screenshot](./docs/image.png) -->
+![Screenshot of the webpage](App.png)
 
 The objective of this project is to build a replica that uses all the core logic of Facebook.
 
@@ -23,43 +23,7 @@ The objective of this project is to build a replica that uses all the core logic
 
 ## Live Demo
 
-[Live Demo Link](https://afternoon-mesa-55417.herokuapp.com)
-
-=======
-
-# Facebook Clone
-
->  An attempt to replicate the logic behind Facebook
-
-<!-- ![screenshot](./docs/image.png) -->
-
-The objective of this project is to build a replica that uses all the core logic of Facebook.
-
-## Features
-
-- Sign in to the app using Facebook account
-- Send and receive friends Requests
-- View posts from accepted friends
-- Edit your profile
-
-## Ideas for improvement
-
-- Make it looks like the real Facebook
-- Real-time messaging.
-- Share post functionality
-
-## Built With
-
-- Ruby language,
-- Ruby on Rails framework,
-- vscode for coding
-- Rubocop for Validation
-
-## Live Demo
-
-[Live Demo Link](https://afternoon-mesa-55417.herokuapp.com)
-
->>>>>>> 2595c22090286e26ed49b672ed7f3e280ec86b9d
+[Live Demo Link](https://face-clone-book.herokuapp.com)
 
 # Gems
 - devise
@@ -105,9 +69,16 @@ For more information, see the
 
 👤 **Vinicius Carvalho**
 
-- Github: [@githubhandle](https://github.com/kazumaki)
-- Twitter: [@twitterhandle](https://twitter.com/iKazumaki/)
-- Linkedin: [linkedin](https://www.linkedin.com/in/vinicius-campos-carvalho-3526a1192/)
+<a href="https://github.com/kazumaki" rel="noopener noreferrer" target="_blank">
+
+  ![Profile Image](images/vinicius-profile.png) 
+
+</a>
+
+- Github: [@kazumaki](https://github.com/kazumaki)
+- Twitter: [@iKazumaki](https://twitter.com/iKazumaki)
+- Linkedin: [Vinicius Campos Carvalho](https://www.linkedin.com/in/vcamposcarvalho/)
+- Email: [vcampos.pitangui@gmail.com](vcampos.pitangui@gmail.com)
 
 ## 🤝 Contributing
 
