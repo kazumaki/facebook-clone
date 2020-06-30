@@ -1,6 +1,6 @@
 # Facebook Clone
 
->  An attempt to replicate the logic behind Facebook
+A Facebook like app built with Ruby on Rails, HTML and CSS.
 
 ![Screenshot of the webpage](images/app.png) 
 
@@ -66,6 +66,7 @@ For more information, see the
 - Github: [@githubhandle](https://github.com/Datagirlcmr)
 - Twitter: [@twitterhandle](https://twitter.com/SelmaNdi)
 - Linkedin: [linkedin](https://www.linkedin.com/in/selma-ndi-datagirl-imba-8976ab32/)
+- Email: [datagirlcmr@gmail.com](datagirlcmr@gmail.com)
 
 👤 **Vinicius Carvalho**
 
