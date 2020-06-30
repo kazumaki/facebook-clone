@@ -1,6 +1,6 @@
 # Facebook Clone
 
-A Facebook like app built with Ruby on Rails, HTML and CSS.
+A Facebook-like app built with Ruby on Rails, HTML, and CSS.
 
 ![Screenshot of the webpage](images/app.png) 
 
@@ -13,6 +13,11 @@ The objective of this project is to build a replica that uses all the core logic
 - View posts from accepted friends
 - Edit your profile
 
+## Ideas for improvement
+
+- Make the design looks more like the real Facebook.
+- Add a real-time messaging system.
+- Add an option for users to upload a profile image.
 
 ## Built With
 
