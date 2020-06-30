@@ -15,14 +15,14 @@ The objective of this project is to build a replica that uses all the core logic
 
 ## Ideas for improvement
 
-- Make the design looks more like the real Facebook.
-- Add a real-time messaging system.
-- Add an option for users to upload a profile image.
+- Make the design looks more like the real Facebook
+- Add a real-time messaging system
+- Add an option for users to upload a profile image
 
 ## Built With
 
-- Ruby language,
-- Ruby on Rails framework,
+- Ruby language
+- Ruby on Rails framework
 - Vscode for coding
 - Rubocop for Validation
 
