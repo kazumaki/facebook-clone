@@ -1,7 +1,3 @@
-<head>
-  <meta property="og:image" content="images/app.png">
-</head>
-
 # Facebook Clone
 
 A Facebook-like app built with Ruby on Rails, HTML, and CSS.
